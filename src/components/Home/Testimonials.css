@@ -1,0 +1,67 @@
+.testimonials{
+    background: #ffffff;
+    padding: 4rem 0;
+    width: 100%;
+}
+
+.carouselt {/*overflow is important*/
+    position: relative;
+    width: 60%;
+    margin: 3rem auto 2rem;
+    overflow: hidden;
+    border-radius: .8rem;
+    border: 1px solid var(--border-pink);
+}
+.carouselt-track {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+.carouselt-card {
+    min-width: 100%;
+    box-sizing: border-box;
+    background: white;
+    padding: 2rem;
+    text-align: center;
+}
+.carouselt-card p {
+    color: var(--grey);
+    font-weight: 500;
+}
+
+.slide-navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* buttons */
+.carouselt-btn {
+  background: #ffffff;
+  color: var(--pink-main);
+  border: 1px solid var(--pink-main);
+  opacity: .6;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+  margin: 0 1rem;
+}
+
+/* Dots */
+.carouselt-dots {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+.dott {
+  width: 8px;
+  height: 8px;
+  background: #d1d5db;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.dott.activedott {
+    background: var(--pink-main);
+}
+

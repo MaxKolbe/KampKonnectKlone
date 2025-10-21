@@ -1,0 +1,105 @@
+.highlights{
+  padding: 1rem 0 4rem;
+  width: 100%;
+}
+.highlight{
+  text-align: center;
+  font-size: 1.6rem;  
+  font-weight: 700;     
+  color: #1f2937;  
+}
+.highlights-navigation{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carouselh {/*overflow is important*/
+  position: relative;
+  width: 90%;
+  margin: 0 auto 2rem;
+  overflow: hidden;
+  border-radius: .8rem;
+  /* border: 1px solid var(--border-pink); */
+}
+.carouselh-track {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+.carouselh-card {
+  min-width: 100%;
+  box-sizing: border-box;
+  padding: 2rem;
+  text-align: center;
+}
+.card-slice{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  column-gap: 1.2rem;
+}
+.carouselh-card img {
+  width: 20rem;
+  height: 16rem;
+  object-fit: cover;
+  display: block;
+  border-radius: .375rem;
+  background: var( --bg-pinkhero);
+  transition: all 0.3s ease;
+}
+.carouselh-card img:hover{
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transform: scale(1.02);
+}
+.slideh-navigation{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* buttons */
+.carouselh-btn {
+  background: #ffffff;
+  color: var(--pink-main);
+  border: 1px solid var(--pink-main);
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+  margin: 0 1rem;
+}
+.prevh{
+  transform: translateX(200%);
+  z-index: 40;
+}
+.nexth{
+  transform: translateX(-200%);
+  z-index: 40;
+}
+
+/* Dots */
+.carouselh-dots {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+.doth {
+  width: 8px;
+  height: 8px;
+  background: #d1d5db;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.doth.activedoth {
+    background: var(--pink-main);
+}
+
+
+@media (max-width: 860px){
+.card-slice{
+  column-gap: .8rem;
+}
+.carouselh-card img {
+  width: 16rem;
+  height: 8rem;
+}
+}

@@ -1,0 +1,17 @@
+.aboutkk{
+    background: #ffffff;
+    padding: 4rem 0;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.aboutkk p{
+    color: var(--grey);
+    font-size: 1.2rem;
+}
+
+@media (max-width: 860px) {
+.aboutkk{
+    padding: 4rem .8rem;
+}
+}

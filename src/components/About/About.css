@@ -1,0 +1,93 @@
+.aboutHero{
+   background: var( --bg-pinkhero);
+   padding: 4rem 0;
+}
+
+.aboutBody{
+   padding: 4rem 0;
+   max-width: 900px; 
+   text-align: center; 
+   margin: 0 auto;
+}
+.aboutInnerBody{
+   text-align: left;
+   color: #4b5563;  
+   font-size: 1.2rem; 
+   font-weight: 400;
+}
+
+.aboutPreFooter{
+   background: linear-gradient(to right, #fce7f3, #f3e8ff);
+   padding: 4rem 0;
+}
+.pf1{
+   max-width: 900px; 
+   margin: 0 auto;
+   text-align: center; 
+}
+.pf1 h1{
+   font-weight: 700; 
+   font-size: 2.2rem;
+   margin-bottom: .6rem;
+   display: inline-block;
+   line-height: 4rem;
+   color: #1F2937; 
+}
+.pf1 p{
+   color: #1F2937;   
+   font-size: 1.275rem; 
+}
+.pf2{
+   display: flex;
+   align-items: center; 
+   padding: 1rem;
+   font-size: 1rem;
+   justify-content: center;
+   margin-top: 3rem;
+}
+.pf2-col{
+   padding: 1.2rem .8rem;
+   background: #ffffff;
+   border-radius: .375rem;
+   box-shadow: 0 8px 10px rgba(0, 0, 0, 0.15);
+   text-align: center;
+   width: 17.6rem;
+   height: 11rem;
+}
+.pf2-col h6{
+   font-weight: bold;
+   font-size: 1.2rem;
+}
+.pf2-col p{
+   color: #4b5563;
+   margin-top: 1rem;
+}
+.pf2-col2{
+   margin: 0 1rem;
+}
+
+@media(max-width: 860px) {
+.aboutHero{
+   padding: 8rem 0 4rem;
+} 
+.aboutBody{
+   padding: 4rem 1rem;
+}
+.aboutPreFooter{
+   padding: 4rem 1rem 2rem;
+}
+.pf1 h1{
+   font-size: 1.8rem;
+   line-height: 2rem;
+   margin-bottom: 1.4rem;
+}
+.pf2{
+   flex-direction: column;
+   margin-top: 2rem;
+}
+.pf2-col{
+   width: 100%;
+   margin-bottom: 2rem;
+   height: 10rem;
+}
+}

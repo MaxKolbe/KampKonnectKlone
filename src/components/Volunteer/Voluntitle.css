@@ -1,0 +1,23 @@
+.voluntitle{
+   text-align: center; 
+   max-width: 640px; 
+   margin: 0 auto;
+}
+.voluntitleDiv{
+    width: 6rem; 
+    height: .25rem; 
+    background: linear-gradient(to right, #ec4899 ,#a855f7);
+    margin: 1rem auto;
+    display: block;
+    border-radius: 9999px 
+}
+.voluntitle h1{
+    font-size: 1.9rem;
+    font-weight: 700;  
+    color: black;     
+    display: inline-block;
+}
+.voluntitle p{
+    color: #4b5563;  
+    font-size: 1.075rem; 
+}

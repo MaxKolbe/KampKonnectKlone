@@ -1,0 +1,95 @@
+.hero{
+    padding: 6rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var( --bg-pinkhero);
+}
+.hero-1{
+    flex-basis: 38%;
+    text-align: left;
+}
+.hero-2{
+    flex-basis: 60%;
+}
+.hero-2 img{
+    width: 100%;
+    border-radius: 1rem;
+    height: 450px;          /* or whatever height you want */
+    object-fit: cover;      /* keeps proportions and fills the box */
+    object-position: 50% 70%; /* left-right top-bottomd*/
+    display: block;
+   
+}
+.img-ath-up{
+    position: relative;
+}
+.img-ath{
+    background: #ffffff;
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: .375rem;
+    position: absolute;
+    bottom: -2rem;
+    right: 0;
+    font-weight: 500;
+}
+ .img-ath p:nth-child(2){
+    color: #7E22CE;
+}
+.hero-1 h1{
+    font-size: 3.6rem;
+    font-weight: 700;  
+    background: linear-gradient(to right, #db2777, #9333ea);      
+    -webkit-background-clip: text;
+    -webkit-textFill-color: transparent;
+    color: transparent;
+    margin-bottom: 1rem;
+    display: inline-block;
+    line-height: 4rem;
+}
+.hero-1 p{
+    margin-bottom: 1.2rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var( --grey);
+}
+.hero-1 ul{
+    display: flex;
+}
+.hero-1 ul li{
+    margin-right: 1rem;
+}
+.hero-1 ul li:nth-child(2){
+    border: 1px solid #db2777;
+    border-radius: 0.375rem; 
+}
+
+@media (max-width: 860px) {
+    .hero{
+        flex-direction: column;
+        padding: 8rem 1rem .1rem ;
+    }
+    .hero-2, .hero-1{
+        flex-basis: 100%;
+
+    }
+    .hero-1 h1{
+       font-size: 2.4rem;
+    }
+    .hero-1 ul{
+     flex-direction: column;
+     margin-bottom: 1rem;
+    }
+    .hbtn{
+       width: 100%;
+    }
+    .img-ath{
+        position: initial;
+        width: 100%;
+        text-align: center;
+        transform: translateY(-80%);
+    }
+  
+   
+}
