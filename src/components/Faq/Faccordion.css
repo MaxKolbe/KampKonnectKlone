@@ -1,0 +1,52 @@
+.facc{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 0 auto 1rem;
+    width: 70%;
+    border: 1px solid var(--border-pink);
+    border-radius: .375rem;  
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+.facc h1{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 1rem 1.4rem;
+    background: white;
+    transition: .3s ease all;
+    border-top-left-radius: .375rem;
+    border-top-right-radius: .375rem;
+    border-bottom-left-radius: .375rem;
+    border-bottom-right-radius: .375rem;
+}
+.facc p{
+    padding: .1rem 1.4rem 1.6rem;
+    background: white;
+    display: none;
+    transition: .3s ease all;
+    border-bottom-left-radius: .375rem;
+    border-bottom-right-radius: .375rem;
+}
+.facc h1:hover{
+    background: var(--faq-pink);
+}
+.farr{
+    color: var(--pink-main);
+}
+.fhide .fp{
+    display: block;
+}
+.fhide .fh{
+    background: var(--faq-pink);
+    border-bottom-left-radius: 0rem;
+    border-bottom-right-radius: 0rem;
+}
+
+@media(max-width: 860px){
+    .facc{
+        width: 92%;
+    }
+}

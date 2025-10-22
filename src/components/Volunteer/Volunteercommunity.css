@@ -1,0 +1,45 @@
+/* COMMUNITY */
+.volunterrCommunity{
+   background: white;
+   padding: 4rem 0 2rem;
+}
+.vcGrid{
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+   column-gap: 1.2rem;
+   padding: 2rem 1rem;
+   justify-content: center;
+}
+.vcGrid img {
+  width: 20rem;
+  height: 18rem;
+  object-fit: cover;
+  display: block;
+  border-radius: .375rem;
+  background: var( --bg-pinkhero);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.vcGrid img:hover {
+  transform: scale(1.02);
+}
+@media(max-width: 1020px){
+.vcGrid{
+   grid-template-columns: auto auto ;
+   row-gap: 1.2rem;
+}
+}
+@media(max-width: 760px){
+.volunterrCommunity{
+   background: white;
+   padding: 4rem .1rem;
+}
+.vcGrid{
+   grid-template-columns: auto  ;
+}
+.vcGrid img{
+   width: 40rem;
+   height: 36rem;
+}
+}
+

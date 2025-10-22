@@ -1,0 +1,26 @@
+/* Register */
+.volunteerRegisterForm{
+   background: var(--bg-grad);
+   padding: 4rem 0;
+   color: #ffffff;
+}
+.minVolunteerRegisterForm{
+   text-align: center;
+   max-width: 700px;
+   margin: 0 auto;
+}
+.minVolunteerRegisterForm h1{
+   font-size: 1.875rem;
+   font-weight: 700;          
+   margin-bottom: 1rem;
+}
+.minVolunteerRegisterForm p{
+   margin-bottom: 1.2rem;
+   font-size: 1.2rem;
+   font-weight: 400;
+}
+@media(max-width: 860px){
+.minVolunteerRegisterForm{
+   padding: 0 1rem;
+}
+} 

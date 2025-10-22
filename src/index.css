@@ -2,10 +2,10 @@
 @import "tailwindcss";
 :root{
   --pink:#fce7f3;
-  --pinkk:#ffffff; 
   --pinkk:#f3e8ff; 
   --border-pink:#fbcfe8; 
   --border-purple: #E9D5FF;
+  --faq-pink: #FDF2F8;
 
   --purple-main: #9333ea;
   --pink-main: #db2777;
