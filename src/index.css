@@ -58,6 +58,7 @@ li{
 .btn:hover {
   background: linear-gradient(to right, #db2777, #9333ea); 
 }
+
 .btn-light {
   display: inline-flex;              
   align-items: center;               
@@ -76,6 +77,26 @@ li{
 }
 .btn-light:hover {
   background-color: #f3f4f6;        
+}
+
+.btn-reverse{
+  display: inline-flex; 
+  align-items: center;
+  justify-content: center; 
+  gap: 0.5rem;
+  white-space: nowrap; 
+  font-size: 0.875rem; 
+  font-weight: 500; 
+  transition: color 0.2s ease, background-color 0.2s ease, transform 0.2s ease; 
+  height: 2.75rem; 
+  padding: 0 2rem; 
+  border-radius: 0.375rem; 
+  color: #fff; 
+  background: linear-gradient(to right, #a855f7, #ec4899); 
+  cursor: pointer;
+}
+.btn-reverse:hover {
+  background: linear-gradient(to right, #9333ea , #db2777); 
 }
 @media (max-width: 960px) {
 .myContainer{
