@@ -12,7 +12,7 @@ const Participate = () => {
             <div className="participateTitle">
                 <div className="participateBody">
                     <h1>Kamp Konnect 2025</h1>
-                    <div className="colorBar"></div>
+                    <div className="colorBarReverse"></div>
                 </div>
                 {/* IS REGISTRATION OPEN? */}
                 <div className="regStatus">

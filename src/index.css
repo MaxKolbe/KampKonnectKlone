@@ -98,6 +98,23 @@ li{
 .btn-reverse:hover {
   background: linear-gradient(to right, #9333ea , #db2777); 
 }
+/* * */
+.colorBar{
+   width: 6rem; 
+   height: .25rem; 
+   background: linear-gradient(to right, #ec4899 ,#a855f7);
+   margin: 1rem auto 2rem;
+   display: block;
+   border-radius: 9999px
+}
+.colorBarReverse{
+   width: 6rem; 
+   height: .25rem; 
+   background: linear-gradient(to right,#a855f7,#ec4899);
+   margin: 1rem auto 2rem;
+   display: block;
+   border-radius: 9999px
+}
 @media (max-width: 960px) {
 .myContainer{
   padding-left: 2%;
