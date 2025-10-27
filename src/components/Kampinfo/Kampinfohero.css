@@ -1,0 +1,71 @@
+.kamphero{
+  width: 100%; 
+  min-height: 50vh;
+  background: linear-gradient(to right, rgba(219,39,119,0.8),rgba(147,51,234,0.8), rgba(219,39,119,0.8)), url('../../assets/KAMPINFOHERO.jpg');
+  background-size: cover;
+  background-position: top center;
+  color: #fff;
+  display: flex;
+  padding: 4rem 0;
+  align-items: center; /* Vertically center the content */
+  justify-content: center; /* Horizontally center the content */
+  opacity: .85;
+}
+.kamphero-text{
+  text-align: center;
+  display: flex;
+  max-width: 960px;
+  flex-direction: column;
+  align-items: center; /* Vertically center the content */
+  justify-content: center; /* Horizontally center the content */
+}
+.kamphero-text h1{
+  font-size: 3.8rem;
+  font-weight: 700;
+}
+.kamphero-text p{
+  font-size: 1.5rem;
+  margin: 10px auto 20px;
+  line-height: 1.4;
+}
+.colorBarBrown{
+  margin: .8rem auto;
+  width: 8rem; /* w-32 → 8rem */
+  height: 0.5rem; /* h-2 → 0.5rem */
+  background: linear-gradient(to right, #fcd34d, #f9a8d4); /* from-yellow-300 to-pink-300 */
+  margin-left: auto; /* mx-auto */
+  margin-right: auto; /* mx-auto */
+  margin-bottom: 2rem; /* mb-8 → 2rem */
+  border-radius: 9999px; /* rounded-full */
+
+}
+.starIconSign{
+  color: #fcd34d;
+  font-size: 4rem;
+  border-radius: 12px;
+  animation: pulse 3s infinite;
+}
+@keyframes pulse {
+  0% {
+    color: rgba(252, 211, 77, 0.3); /* lighter tint */
+  }
+  50% {
+    color: rgba(252, 211, 77, 0.7); /* stronger tint */
+  }
+  100% {
+    color: rgba(252, 211, 77, 0.3); /* back to lighter tint */
+  }
+}
+/*Media Query*/
+@media (max-width: 860px) {
+    .kamphero{
+      margin-top: 5.2rem;
+      min-height: 60vh;
+    }
+   .kamphero-text h1{
+      font-size: 2.2rem;
+   }
+   .kamphero-text p{
+      font-size: 1.3rem;
+   }
+}

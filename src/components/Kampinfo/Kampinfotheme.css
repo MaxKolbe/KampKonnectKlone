@@ -1,0 +1,101 @@
+/* THEME */
+.themeTitle{
+    background: linear-gradient(to bottom right, #f3e8ff, #fce7f3);
+    padding: 5rem 0;
+}
+.themeTitleBody{
+    text-align: center; 
+    max-width: 800px; 
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.themeTitleBodyIcon{
+    color: #9333ea;
+    font-size: 3rem;
+}
+.themeTitleBody h1{
+  font-size: 2.4rem;
+  font-weight: 700;  
+  background: linear-gradient(to right,  #9333ea, #db2777);  
+  background-clip: text;     
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  display: inline-block;
+  line-height: 4rem;
+}
+.anchorDiv{
+  width: 72%;
+  margin: 0 auto;
+  background: white;
+  border: .1rem solid var(--border-purple);
+}
+.anchorDiv h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right,  #9333ea, #db2777);  
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding: 1rem 0rem;
+  opacity: .8;
+  border-top-left-radius: .375rem;
+  border-top-right-radius: .375rem;
+}
+.anchorDiv h1 span{
+   background: linear-gradient(to right, #fcd34d , #ffffff);      
+  -webkit-background-clip: text;
+  -webkit-textFill-color: transparent;
+  color: transparent;
+}
+.anchorDivhicon{
+  color: white;
+  margin-right: .8rem;
+  font-size: 1.8rem;
+}
+.anchorDivp{
+  padding: 2rem;
+  color: var(--grey);
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+.anchorMeaningP{
+  padding-left: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.anchorMeaningC{
+  border-left: .2rem solid #9333ea;
+  background: linear-gradient(to right,#FAF5FF, #ffffff);
+  color: var(--grey);
+  padding: 1.5rem 0rem .1rem 1rem;
+}
+.anchorMeaningC p{
+  color: #7E22CE;
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: .4rem;
+}
+.anchorMeaningC ul li{
+  display: inline-flex;
+}
+.anchorIcon{
+  margin-right: .4rem;
+  color: #db2777;
+  font-size: 1.4rem;
+}
+.btnAnchor{
+  margin: 2rem auto;
+}
+/* MEDIA QUERIES */
+@media(max-width: 860px) {
+.themeTitle{
+    padding: 4rem 0 4rem;
+}
+.anchorDiv{
+  width: 96%;
+}
+}
