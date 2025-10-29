@@ -75,14 +75,14 @@ const cards = [
             
             {/* Navigation */}
             <div className="slide-navigation">
-                <button className="carouselt-btn prev" onClick={prevSlide}>‹</button>
+                <button className="carouselt-btn prevt" onClick={prevSlide}>‹</button>
                 {/* Dots */}
                 <div className="carouselt-dots">
                     {cards.map((_, index) => (
                         <span key={index} className={`dott ${index === current ? "activedott" : ""}`} onClick={() => setCurrent(index)}/>
                     ))}
                 </div>
-              <button className="carouselt-btn next" onClick={nextSlide}>›</button>
+              <button className="carouselt-btn nextt" onClick={nextSlide}>›</button>
             </div>
        </div>
     )
