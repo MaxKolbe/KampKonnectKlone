@@ -61,12 +61,12 @@ const shandleClick = (e: React.FormEvent, buttonId: string) => {
                     <h1><IoMdCheckmarkCircleOutline className="h1icon"/>Choose amount</h1>
                     <div className="billCycle">
                         {cycleButtonItems.map((button) => (
-                            <button key={button.id} className={activeButtonId === button.id ? 'cycle greenActive' : 'cycle'} onClick={(e) => handleClick(e, button.id)}>{button.label}</button>
+                            <button key={button.id} className={activeButtonId === button.id ? 'cycle greenActive' : 'cycle'} onClick={(e) => handleClick(e, button.id)}  onTouchEnd={(e) => handleClick(e, button.id)}>{button.label}</button>
                         ))}
                     </div>
                      <div className="solidAmt">
                         {sButtonItems.map((button) => (
-                            <button key={button.id} className={activeButtonIdS === button.id ? 'samt greenActive' : 'samt'} onClick={(e) => shandleClick(e, button.id)}>{button.label}</button>
+                            <button key={button.id} className={activeButtonIdS === button.id ? 'samt greenActive' : 'samt'} onClick={(e) => shandleClick(e, button.id)}  onTouchEnd={(e) => shandleClick(e, button.id)}>{button.label}</button>
                         ))}
                     </div>
                     <div className="otheramt"><input type="text" placeholder="other amount" className="amt1" /> <span className="amt2">NGN</span></div>
