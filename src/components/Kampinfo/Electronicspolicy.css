@@ -6,7 +6,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 1.2rem 0;
+    padding: 1.2rem 0rem;
+    text-align: center;
     border-radius: .375rem;
     background: linear-gradient(to right, #f3e8ff, #fce7f3);
     font-size: 1.1rem;
@@ -66,3 +67,8 @@
   }
 }
 
+@media(max-width: 860px){
+  .eup-block2{
+    padding: 1.2rem .5rem;
+  }
+}

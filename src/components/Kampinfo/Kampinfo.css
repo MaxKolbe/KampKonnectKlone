@@ -107,5 +107,8 @@
 .ki-paragraph{
   transform: translateY(-20%);
 }
+.ki-block ul li{
+  padding-right: .5rem;
+} 
 
 }

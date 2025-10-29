@@ -153,4 +153,7 @@
     .stayConnected, .nyForm{
         margin-top: 2rem;
     }
+    .stayConBtn a{
+    font-size: .82rem;
+}
 }

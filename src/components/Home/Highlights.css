@@ -37,10 +37,11 @@
   column-gap: 1.2rem;
 }
 .carouselh-card img {
-  width: 20rem;
-  height: 16rem;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   display: block;
+  object-position: center;
   border-radius: .375rem;
   background: var( --bg-pinkhero);
   transition: all 0.3s ease;
@@ -98,8 +99,10 @@
 .card-slice{
   column-gap: .8rem;
 }
-.carouselh-card img {
+/* .carouselh-card img {
   width: 16rem;
   height: 8rem;
+} */
 }
-}
+
+
